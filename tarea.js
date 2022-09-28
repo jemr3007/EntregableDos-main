@@ -7,7 +7,7 @@ const suma = (a,b) =>{
     // Tu código
     return a + b;
 }
-/*console.log(suma(8,6));//Mostrar resultado */
+console.log(suma(8,6));//Mostrar resultado 
 
 const sonIguales = (x, y)=>{
     // Devuelve "true" si "x" e "y" son iguales
@@ -20,7 +20,7 @@ const sonIguales = (x, y)=>{
       console.log( false + " (No son Iguales)");
     }   
 }
-/*console.log(sonIguales(3,2)); //Mostrar resultado */
+console.log(sonIguales(3,2)); //Mostrar resultado 
 
 function tienenMismaLongitud(str1, str2) {
     // Devuelve "true" si las dos strings tienen la misma longitud
@@ -32,7 +32,7 @@ function tienenMismaLongitud(str1, str2) {
       console.log( false + " (No Tienen la misma Longitud)");
     }
   }
-  /*console.log(tienenMismaLongitud("holoo","hola")); //Mostrar resultado */
+  console.log(tienenMismaLongitud("holoo","hola")); //Mostrar resultado 
 
   function esPositivo(numero) {
     //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
@@ -50,7 +50,7 @@ function tienenMismaLongitud(str1, str2) {
     }
     
   }
-  /*console.log(esPositivo(0)); // Mostrar resultado*/
+  console.log(esPositivo(0)); // Mostrar resultado
 
   const colors = (color)=>{
     //La función recibe un color. Devolver el string correspondiente:
@@ -73,7 +73,7 @@ function tienenMismaLongitud(str1, str2) {
       default: console.log("Color not found");
     }
   }
-  /*console.log(colors("green")); // Mostrar resultado */
+  console.log(colors("green")); // Mostrar resultado 
 
   const fizzBuzz = (numero)  => {
     // Si "numero" es divisible entre 3, devuelve "fizz"
@@ -90,14 +90,14 @@ function tienenMismaLongitud(str1, str2) {
       return numero;
     }
   }
-  /*console.log(fizzBuzz(50)); //Mostrar resultado */
+  console.log(fizzBuzz(50)); //Mostrar resultado 
 
   const Elements = [12, 10, 0, 20, 45];
   const devolverPrimerElemento = Elements.find(array => array != undefined); {
     // Devuelve el primer elemento de un array
     // Tu código:
   }
-  /*console.log(devolverPrimerElemento); //Mostrar resultado */
+  console.log(devolverPrimerElemento); //Mostrar resultado 
 
 const N = [1,2,3,4,5];
 const agregarItemAlFinalDelArray = (array, elemento) =>{
@@ -108,16 +108,16 @@ const agregarItemAlFinalDelArray = (array, elemento) =>{
   console.log(array)
   elemento(array);
 }    
-/*agregarItemAlFinalDelArray(N, function(array){
+agregarItemAlFinalDelArray(N, function(array){
   console.log(`el arreglo ha sido modificado ahora es de ${array.length} elementos`);
-})*/
+})
 
   const nuevoUsuario = (nombre, email, password) => ({nombre, email, password});
     // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
     // Devuelve el objeto
     // Tu código:
-  /*const usuario = nuevoUsuario ('Esteban','juan@gmail.com',123);
-  console.log(usuario);/*
+  const usuario = nuevoUsuario ('Esteban','juan@gmail.com',123);
+  console.log(usuario);
   /*------------------------------voy hasta aqui---------------------------------------*/
  
   const verificarPassword = (usuario, password) => {
